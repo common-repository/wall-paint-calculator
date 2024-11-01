@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#paint_volume_calculator {
+	width:240px;
+	margin-bottom:15px;
+	float:left;
+	margin-right:15px;
+}
+
+#paint_volume_calculator h3 {
+	background:#6d6d6d;
+	color:#fff !important;
+	font-size:20px;
+	text-transform:uppercase;
+	text-align:center;
+	display:block;
+	margin-bottom:0 !important;
+	margin-top:0 !important;
+	font-weight:normal !important;
+	padding:15px 0;
+}
+
+#paint_volume_calculator .field {
+	background:#EAEAEA;
+	padding:5px 10px;
+	border:1px solid #ccc;
+}
+
+#paint_volume_calculator label {
+	display:block;
+	padding-top:6px;
+	float:left;
+	width:70%;
+}
+
+#paint_volume_calculator input {
+	display:block;
+	float:right;
+	width:20%;
+	text-align:center;
+}
+
+#paint_volume_calculator #div_calculate_button {
+	background:#EAEAEA;
+	padding:10px;
+	border:1px solid #ccc;
+}
+
+#paint_volume_calculator #div_calculate_button a {
+	display:block;
+	cursor:pointer;
+	background:#6d6d6d;
+	color:#fff !important;
+	padding:5px 10px;
+	text-align:center;
+	text-decoration:none !important;
+}
+
+#paint_volume_calculator .message {
+	color:#F00;
+}
+
+#paint_volume_calculator #link {
+	margin-top:10px !important;
+}
+
+#paint_volume_calculator #link a {
+	font-size:11px !important;
+	color:#CCC !important;
+}
+
+#paint_volume_calculator .clear {
+	clear:both;
+}
+
+#paint_volume_calculator #ceiling {
+	margin-top:10px;
+}
+
+#paint_volume_calculator #result {
+	display:none;
+	text-align:center;
+	font-weight:bold;
+	color:#090;
+}
